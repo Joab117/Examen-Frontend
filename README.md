@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend for Validation and Response Service
 
-## Getting Started
+This repository contains the frontend of the Validation and Response Service, built with Next.js, TypeScript, and React. It provides an interface for users to submit their responses, sends the data to the backend for validation, and displays the results.
 
-First, run the development server:
+## Description
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The frontend application allows users to:
+- **Submit Responses:** Input their responses via a form.
+- **Interact with the Backend:** Send user responses to the backend API for validation.
+- **Display Results:** View validation results returned by the backend.
+- **Enjoy a Responsive UI:** Experience a modern and responsive design built with React and TypeScript.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Responsive Design:** Optimized for desktops, tablets, and mobile devices.
+- **Type Safety:** Developed using TypeScript to enhance code quality and maintainability.
+- **API Integration:** Communicates with the backend using HTTP client libraries (e.g., Axios or the Fetch API).
+- **Client-side and Server-side Rendering:** Leverages Next.js features for improved performance and SEO.
+- **User Feedback:** Provides clear success and error messages based on backend responses.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies
 
-## Learn More
+- **Framework:** Next.js
+- **Language:** TypeScript
+- **Library:** React
+- **HTTP Client:** (e.g., Axios or Fetch API)
+- **Styling:** TailwindCss
 
-To learn more about Next.js, take a look at the following resources:
+## Requirements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Node.js** (v14+ recommended)
+- **npm** (or yarn)
+- A running instance of the backend service (configured via environment variables)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Installation
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your_username/your_frontend_repository.git
